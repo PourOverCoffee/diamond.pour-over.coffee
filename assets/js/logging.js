@@ -101,3 +101,4 @@ function logAction(action, identifier) {
 // always log the session on load
 logSession()
 logAction("openPage", window.location.href)
+console.log("end of logging")
