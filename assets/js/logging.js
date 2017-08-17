@@ -1,4 +1,5 @@
 window.onerror = function(msg, url, linenumber) {
+    console.log(msg, url, linenumber)
     return true;
 }
 
